@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+   padding: 10px;
+   margin: 20px;
+}
+/* prima immagine */
+.immage-first{
+    float: left;
+    width: calc((100% - 20px) / 3);
+    margin-bottom: 20px;
+    
+}
+.primo{
+    position: relative;
+}
+.primo img{
+    position: absolute;
+}
