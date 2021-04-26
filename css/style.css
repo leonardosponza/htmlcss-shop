@@ -62,5 +62,21 @@ margin: 0 auto;
 .box-background{
     background-color: olivedrab;
 }
+.box-testi,
+.box-background {
+height:100px;
+}
+
+.effetto-hover{
+    display: none;
+    width: 100%;
+}
+.image-first:hover .hover{
+    display: none;
+}
+
+.image-first:hover .effetto-hover{
+    display:block;
+}
 
 
